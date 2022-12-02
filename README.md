@@ -1,24 +1,30 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## What this application does
 
-Things you may want to cover:
+To create a realtime search box, where users search articles, and then to have analytics that display what users were searching for.
 
-* Ruby version
+Your goal is to record their input in realtime and ultimately display analytics & trends on what people are searching for the most. (this is not about search itself, but really about analytics behind it)
 
-* System dependencies
+It’s per user - so don't blend other users data
 
-* Configuration
+Don’t worry too much about populating it with articles, we only really care about the search, and search analytics. We don’t care how good your search engine is, but rather how good your algorithm for figuring out what people searched for.
 
-* Database creation
 
-* Database initialization
+## Development
 
-* How to run the test suite
+To install project:
+1) Install Ruby, Rails and gems
+2) Setup database
 
-* Services (job queues, cache servers, search engines, etc.)
+```bash
+bundle exec rake db:create
+bundle exec rake db:migrate
+```
 
-* Deployment instructions
+3) Run server
 
-* ...
+```
+bundle exec rails s
+```
+
