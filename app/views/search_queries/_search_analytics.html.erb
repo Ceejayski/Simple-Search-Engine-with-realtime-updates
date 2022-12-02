@@ -11,12 +11,15 @@
       <%= pluralize(total_no_of_queries, 'Query') %>
     </h3>
   </div>
-  <div class="shadow p-6">
-    <h2 class="text-xl font-extrabold">Trending Query(Most Used)</h2>
-    <h3 class="text-red-600 text-md font-semibold truncate">
-      <%= trending_queries&.first[0] %>
-    </h3>
-  </div>
+  <% if trending_queries.first %>
+    <div class="shadow p-6">
+      <h2 class="text-xl font-extrabold">Trending Query(Most Used)</h2>
+      <h3 class="text-red-600 text-md font-semibold truncate">
+        <%= trending_queries.first[0] %>
+      </h3>
+    </div>
+  <% end %>
+
 
 </div>
 
