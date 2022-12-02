@@ -1,0 +1,11 @@
+development:
+  adapter: redis
+  url: redis://localhost:6379/1
+
+test:
+  adapter: test
+
+production:
+  adapter: redis
+  url: redis://:pffce80c698b89b043f91342220f9aaef609d04ec1f1077e100f8e3d33e6774f0@ec2-3-210-40-253.compute-1.amazonaws.com:30209
+  channel_prefix: help_juice_production

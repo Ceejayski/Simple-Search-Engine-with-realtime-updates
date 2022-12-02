@@ -1,0 +1,8 @@
+<Section class="mt-12">
+  <h1 class="text-2xl font-extrabold py-4">
+    Search Analytics
+  </h1>
+  <%= turbo_stream_from "search_analytics_#{session.id}" %>
+
+  <%= render 'search_analytics', trending_queries: @trending_queries, my_queries: @my_queries, most_recent_queries: @most_recent_queries, total_no_of_queries: @total_no_of_queries %>
+</Section>
