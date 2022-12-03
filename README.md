@@ -1,4 +1,4 @@
-# README
+# Realtime Search Engine  in Rails and Hotwire
 
 ## What this application does
 
