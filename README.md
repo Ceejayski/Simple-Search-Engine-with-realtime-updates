@@ -30,4 +30,4 @@ bundle exec rails s
 
 ## Live Demo
 [Live Demo](https://search-analytics.herokuapp.com/)
-![App Image](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![App Image](https://github.com/Ceejayski/Simple-Search-Engine-with-realtime-updates/blob/main/app.gif)
